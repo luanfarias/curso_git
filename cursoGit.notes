@@ -39,6 +39,19 @@
             pastaIgnorada/arq3.html // caso queira ignorar um arquivo em especifico dentro de uma pasta
         # ".gitignore" precisa ser adicionado ao tracking #
 
+"git remote": Lista todos os repositórios remotos
+"git remote add nomeRepositorio url": Adiciona um repositório remoto e vincula ele a uma url.
+    -> É uma convenção chamar o nome do repositório de "origin"
+    -> A url pode ser o github
+        A url pode ser adicionada via https ou SSH
+            http -> Irá sempre pedir a senha
+            ssh -> Não irá pedir a senha, mas terá que adicionar uma chave ao github
+"git push repositorioRemoto branch"
+    -> "git push origin master"
+    -> pode ser adicionado a flag "-u": Faz a associação que toda vez que digitar somente "git push" irá enviar para o repositório "origin" a branch "master"
+        Uma vez adicionada a flag, na próxima só é necessário digitar "git push"
+
+
 === GIT FLOW ===
 "git init" para inicir o repositório
 "git add" para adicionar os arquivos
@@ -46,6 +59,9 @@
 "git commit -m "commit"" para fazer o commit da alteração
     "-m": flag de mensagem
 "git log" para mostrar o log de commits
+# Criar um repositório no Github #
+"git remote add origin https://github.com/luanfarias/curso_git.git": Adiciona um repotitório remoto chamad origin e vincula ele ao github (através do link)
+"git push -u origin master": Envia as informações do repositório local para o remoto
 
 === Liks Úteis ===
 [/git log cheatsheet/ -> https://devhints.io/git-log]
