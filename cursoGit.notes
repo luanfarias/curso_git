@@ -6,6 +6,8 @@
 "git status": Mostrar as iformações dos arquivos (minitorados, não onitorados e ignorados)
     "untracked files": Arquivos que não estão sendo monitorados pelo git
         # git add arquivo.ext #
+    // Depois de "git add" os arquivos são adicionados para serem commitados caso haja modificações
+    // Quando commitado não irá mais aparecer o arquivos
 
 "git add arquivo.ext": Adiciona o arquivo para o git trackear
     "git add .": Adiciona todos os arquivos da pasta para serem monitorados
@@ -16,3 +18,4 @@
 "git init" para inicir o repositório
 "git add" para adicionar os arquivos
 "git commit -m "commit"" para fazer o commit da alteração
+    "-m": flag de mensagem
