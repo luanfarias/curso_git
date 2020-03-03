@@ -9,7 +9,7 @@
     // Depois de "git add" os arquivos são adicionados para serem commitados caso haja modificações
     // Quando commitado não irá mais aparecer o arquivos
 
-"git add arquivo.ext": Adiciona o arquivo para o git trackear
+"git add arquivo.ext": Adiciona o arquivo para o git monitorar
     "git add .": Adiciona todos os arquivos da pasta para serem monitorados
 
 "git commit -m "frase do commit"": Faz a commit no códgo, marcando o ponto da alteração com uma mensagem.
